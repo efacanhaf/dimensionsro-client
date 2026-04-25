@@ -1,0 +1,2 @@
+-- DIAGNOSTIC: deliberately broken to confirm file is being loaded
+error("DIAGNOSTIC: iteminfo_true.lub was loaded - WARP path works!")

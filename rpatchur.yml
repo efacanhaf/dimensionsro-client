@@ -1,0 +1,31 @@
+window:
+  title: DimensionsRO Launcher
+  width: 780
+  height: 580
+  resizable: false
+
+play:
+  path: Ragexe.exe
+  arguments: []
+  exit_on_success: true
+
+setup:
+  path: Setup.exe
+  arguments: []
+  exit_on_success: false
+
+web:
+  index_url: https://efacanhaf.github.io/dimensionsro-patches/index.html?v=12
+  preferred_patch_server: GitHub
+  patch_servers:
+    - name: GitHub
+      plist_url: https://efacanhaf.github.io/dimensionsro-patches/plist.txt
+      patch_url: https://efacanhaf.github.io/dimensionsro-patches/patches/
+
+client:
+  default_grf_name: server.grf
+
+patching:
+  in_place: true
+  check_integrity: true
+  create_grf: true

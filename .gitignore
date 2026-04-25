@@ -1,0 +1,19 @@
+# Big GRFs (distribute separately via GoFile)
+data.grf
+en.grf
+
+# Backup/scratch
+_loose_backup/
+*.epi
+*.lock
+*.secure.txt
+Ragexe.exe.unpatched
+
+# State
+savedata/
+ScreenShot/
+_tmpEmblem/
+GameGuard/
+PatchClient/
+Replay/
+memo/
