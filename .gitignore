@@ -8,6 +8,7 @@ _loose_backup/
 *.lock
 *.secure.txt
 Ragexe.exe.unpatched
+Ragexe.exe.pre-warp-bak
 
 # State
 savedata/
