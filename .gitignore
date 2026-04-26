@@ -24,3 +24,11 @@ GameGuard/
 PatchClient/
 Replay/
 memo/
+
+# HD texture pack and mood pack (distribute via gofile)
+textures-hd.grf
+textures-hd-2.grf
+textures-hd-3.grf
+textures-hd-4.grf
+mood.grf
+skybox-hd.grf
