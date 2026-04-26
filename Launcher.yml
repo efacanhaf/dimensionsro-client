@@ -15,7 +15,7 @@ setup:
   exit_on_success: false
 
 web:
-  index_url: https://efacanhaf.github.io/dimensionsro-patches/index.html?v=12
+  index_url: https://efacanhaf.github.io/dimensionsro-patches/index.html?v=13
   preferred_patch_server: GitHub
   patch_servers:
     - name: GitHub
@@ -29,3 +29,46 @@ patching:
   in_place: true
   check_integrity: true
   create_grf: true
+
+optional_packs:
+  - id: mood
+    label: "Mood Pack — atmospheric lighting"
+    description: "Cinematic per-city color grading via .gnd lightmap tinting"
+    default_enabled: true
+    files:
+      - name: mood.grf
+        url: https://pub-22ce23c6503f49069054bf7ecdf47aec.r2.dev/mood.grf
+        size: 11335656
+        sha256: "9aa70100f327ebf2ae616cbf90ee7607917750f72a2c960e4a200ee6df44a35e"
+
+  - id: skybox_hd
+    label: "Skybox HD"
+    description: "2x upscaled cloud + cloudback textures"
+    default_enabled: true
+    files:
+      - name: skybox-hd.grf
+        url: https://pub-22ce23c6503f49069054bf7ecdf47aec.r2.dev/skybox-hd.grf
+        size: 917729
+        sha256: "8bfc95ee0aae4d616866a3ad2bce0766798662cd12e5440806c38daabd19d48d"
+
+  - id: hd_textures
+    label: "HD Textures (14.8 GB)"
+    description: "Real-ESRGAN 2x upscale of every map texture (52,297 BMPs)"
+    default_enabled: true
+    files:
+      - name: textures-hd.grf
+        url: https://pub-22ce23c6503f49069054bf7ecdf47aec.r2.dev/textures-hd.grf
+        size: 4101630384
+        sha256: "a5b6e9f54258cfb1196c790908f1ab63d37c1d1571aa60170355ac87c0cf3ca5"
+      - name: textures-hd-2.grf
+        url: https://pub-22ce23c6503f49069054bf7ecdf47aec.r2.dev/textures-hd-2.grf
+        size: 4090650440
+        sha256: "4ad92b2d3e90f55cec89a2e4770c0cbea0145f5fc08312c37cf1e93e936562cc"
+      - name: textures-hd-3.grf
+        url: https://pub-22ce23c6503f49069054bf7ecdf47aec.r2.dev/textures-hd-3.grf
+        size: 3836773300
+        sha256: "e27105298e8aae40703054ebb1aa78f86adc8bcd88f43f3b3b01cb75ae8c80ce"
+      - name: textures-hd-4.grf
+        url: https://pub-22ce23c6503f49069054bf7ecdf47aec.r2.dev/textures-hd-4.grf
+        size: 3604001425
+        sha256: "4d614f5ef21d6ed100e4bc062da48ca77410b658291c41f133970bcdfdbd11b1"

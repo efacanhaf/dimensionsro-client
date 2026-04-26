@@ -16,6 +16,10 @@ en.grf.bak
 # Loose data folder (extracted from GRFs for dev iteration; rebuild GRF to distribute)
 data/
 
+# Installer build artifacts (large, distribute via GitHub releases)
+installer/payload.7z
+installer/DimensionsRO-Setup.exe
+
 # State
 savedata/
 ScreenShot/
