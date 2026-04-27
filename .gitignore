@@ -16,11 +16,30 @@ en.grf.bak
 # Loose data folder (extracted from GRFs for dev iteration; rebuild GRF to distribute)
 data/
 
-# State
-savedata/
+# Installer build artifacts (large, distribute via GitHub releases)
+installer/payload.7z
+installer/DimensionsRO-Setup.exe
+
+# State (savedata is per-player, ignored — except the default-skin template
+# below which seeds a fresh install with dimensionsro_dark active)
+savedata/*
+!savedata/OptionInfo.lua
 ScreenShot/
 _tmpEmblem/
 GameGuard/
 PatchClient/
 Replay/
 memo/
+
+# HD texture pack and mood pack (distribute via gofile)
+textures-hd.grf
+textures-hd-2.grf
+textures-hd-3.grf
+textures-hd-4.grf
+mood.grf
+skybox-hd.grf
+
+# DimensionsRO dark skin (~1.6 GB, ~25k BMPs).
+# Ships to players via thor patch (rpatchur). Regenerate locally with
+# tools/skin-recolor/ (extract from data.grf, recolor, overlay en.grf).
+Skin/dimensionsro_dark/
