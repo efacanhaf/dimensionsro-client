@@ -21,6 +21,10 @@ data.grf.original-*
 LauncherTest.*
 launcher_test_*
 
+# ReShade (not part of distribution)
+ReShade.ini
+ReShade*
+
 # Multipart split state files
 *.state.json
 
