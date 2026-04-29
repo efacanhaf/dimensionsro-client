@@ -6,7 +6,7 @@ window:
 
 play:
   path: Ragexe.exe
-  arguments: ["943c0ac13c787d4e3edb81d49f729e9ef92e1676ed64977932d9f65980142350"]
+  arguments: ["1rag1"]
   exit_on_success: true
 
 setup:
