@@ -1,17 +1,52 @@
-# Big GRFs (distribute separately via GoFile)
+# Big GRFs (distribute separately)
 data.grf
 en.grf
+
+# HD content (downloaded on-demand from R2 by the launcher)
+hd.grf
+hd-*.grf
+hd-manifest.json
+
+# Local dev launcher HTML (production fetches from GitHub Pages)
+launcher.html
+
+# Logs (debug runs, R2 sync, etc)
+*.log
 
 # Backup/scratch
 _loose_backup/
 *.epi
 *.lock
 *.secure.txt
+*.bak
+!DATA-vanilla.ini.bak
+!DATA-hd.ini.bak
+*.bak-*
+*.before-*
 Ragexe.exe.unpatched
 Ragexe.exe.pre-warp-bak
 Setup.exe.kr-bak
 Launcher.dat
 en.grf.bak
+data.grf.original-*
+
+# Test launcher artifacts
+LauncherTest.*
+launcher_test_*
+
+# ReShade (not part of distribution)
+ReShade.ini
+ReShade*
+
+# Multipart split state files
+*.state.json
+
+# Sprite test/work GRFs (regenerate via dev tooling)
+sprite-test*.grf
+head*-test.grf
+hud-skin-test.grf
+mood-test.grf
+mood-prt.grf
 
 # Loose data folder (extracted from GRFs for dev iteration; rebuild GRF to distribute)
 data/

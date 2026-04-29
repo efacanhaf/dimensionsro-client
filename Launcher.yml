@@ -15,7 +15,7 @@ setup:
   exit_on_success: false
 
 web:
-  index_url: https://efacanhaf.github.io/dimensionsro-patches/index.html?v=13
+  index_url: https://efacanhaf.github.io/dimensionsro-patches/index.html?v=15
   preferred_patch_server: GitHub
   patch_servers:
     - name: GitHub
@@ -30,45 +30,41 @@ patching:
   check_integrity: true
   create_grf: true
 
+mode_artifacts:
+  vanilla:
+    ragexe_sha256: b0e9bf05be0a7ddf0edb969c3d548848882022e54cb461ee0ff1053352e21ded
+    dataini_sha256: ed511070be3a587988d16993aab9197b8ff960b943ce66cfd7d66bfe865f2340
+  hd:
+    ragexe_sha256: cc49a43a42a169df7761d7079a5b41302cb4a3dd1b54f368f7ce421f6b17bf3a
+    dataini_sha256: 8658ac4590e4b36b9f71894ce7895c9ffd01322cb2a286ea3c19c4127b0bc7f5
+
 optional_packs:
-  - id: mood
-    label: "Mood Pack — atmospheric lighting"
-    description: "Cinematic per-city color grading via .gnd lightmap tinting"
-    default_enabled: true
+  - id: hd
+    label: "HD Content (~17.4 GB)"
+    description: "Texturas + sprites em alta resolução (NPCs, monstros, mapas, acessórios). Baixar uma única vez."
+    default_enabled: false
     files:
-      - name: mood.grf
-        url: https://pub-22ce23c6503f49069054bf7ecdf47aec.r2.dev/mood.grf
-        size: 11335656
-        sha256: "9aa70100f327ebf2ae616cbf90ee7607917750f72a2c960e4a200ee6df44a35e"
-
-  - id: skybox_hd
-    label: "Skybox HD"
-    description: "2x upscaled cloud + cloudback textures"
-    default_enabled: true
-    files:
-      - name: skybox-hd.grf
-        url: https://pub-22ce23c6503f49069054bf7ecdf47aec.r2.dev/skybox-hd.grf
-        size: 917729
-        sha256: "8bfc95ee0aae4d616866a3ad2bce0766798662cd12e5440806c38daabd19d48d"
-
-  - id: hd_textures
-    label: "HD Textures (14.8 GB)"
-    description: "Real-ESRGAN 2x upscale of every map texture (52,297 BMPs)"
-    default_enabled: true
-    files:
-      - name: textures-hd.grf
-        url: https://pub-22ce23c6503f49069054bf7ecdf47aec.r2.dev/textures-hd.grf
-        size: 4101630384
-        sha256: "a5b6e9f54258cfb1196c790908f1ab63d37c1d1571aa60170355ac87c0cf3ca5"
-      - name: textures-hd-2.grf
-        url: https://pub-22ce23c6503f49069054bf7ecdf47aec.r2.dev/textures-hd-2.grf
-        size: 4090650440
-        sha256: "4ad92b2d3e90f55cec89a2e4770c0cbea0145f5fc08312c37cf1e93e936562cc"
-      - name: textures-hd-3.grf
-        url: https://pub-22ce23c6503f49069054bf7ecdf47aec.r2.dev/textures-hd-3.grf
-        size: 3836773300
-        sha256: "e27105298e8aae40703054ebb1aa78f86adc8bcd88f43f3b3b01cb75ae8c80ce"
-      - name: textures-hd-4.grf
-        url: https://pub-22ce23c6503f49069054bf7ecdf47aec.r2.dev/textures-hd-4.grf
-        size: 3604001425
-        sha256: "4d614f5ef21d6ed100e4bc062da48ca77410b658291c41f133970bcdfdbd11b1"
+      - name: hd.grf
+        url: https://pub-22ce23c6503f49069054bf7ecdf47aec.r2.dev/hd.grf
+        size: 3798427991
+        sha256: ba3c107c95df9c620c7ea509aac6e86aa12c2b61e050cf6f995440940b6ba7f7
+      - name: hd-2.grf
+        url: https://pub-22ce23c6503f49069054bf7ecdf47aec.r2.dev/hd-2.grf
+        size: 3796456538
+        sha256: 47af2175a2b2c08658cd4dcb7f2efcef29c113a39be7aedb77f7769d918fd8cc
+      - name: hd-3.grf
+        url: https://pub-22ce23c6503f49069054bf7ecdf47aec.r2.dev/hd-3.grf
+        size: 3797237593
+        sha256: 4ca85a4c2407acb410a59005676fd0359ef2c5914c8a8d854f5207d2b5436c8d
+      - name: hd-4.grf
+        url: https://pub-22ce23c6503f49069054bf7ecdf47aec.r2.dev/hd-4.grf
+        size: 3799468669
+        sha256: a816aca68e44a58cf66da08757fe1913b13afde99a83fc62daa8db3cef2d1db7
+      - name: hd-5.grf
+        url: https://pub-22ce23c6503f49069054bf7ecdf47aec.r2.dev/hd-5.grf
+        size: 3799835226
+        sha256: 954f2c222859332f0da37f69eedf32a8f9bffcb842236db1213d4585c4cb8ba4
+      - name: hd-6.grf
+        url: https://pub-22ce23c6503f49069054bf7ecdf47aec.r2.dev/hd-6.grf
+        size: 1087756827
+        sha256: a9a9d4fcb9196432e428c3860cfc788ab4c36ae008aef66581e6e5243dc99f68
