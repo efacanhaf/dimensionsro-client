@@ -1,6 +1,17 @@
-# Big GRFs (distribute separately via GoFile)
+# Big GRFs (distribute separately)
 data.grf
 en.grf
+
+# HD content (downloaded on-demand from R2 by the launcher)
+hd.grf
+hd-*.grf
+hd-manifest.json
+
+# Local dev launcher HTML (production fetches from GitHub Pages)
+launcher.html
+
+# Logs (debug runs, R2 sync, etc)
+*.log
 
 # Backup/scratch
 _loose_backup/
@@ -8,6 +19,8 @@ _loose_backup/
 *.lock
 *.secure.txt
 *.bak
+!DATA-vanilla.ini.bak
+!DATA-hd.ini.bak
 *.bak-*
 *.before-*
 Ragexe.exe.unpatched
