@@ -32,11 +32,11 @@ patching:
 
 mode_artifacts:
   vanilla:
-    ragexe_sha256: b0e9bf05be0a7ddf0edb969c3d548848882022e54cb461ee0ff1053352e21ded
+    ragexe_sha256: 7ad6ade0ea82a3e160e9a4f0fbd875c1a16a4e770c0ca2b2a3c88d75f2d02c8f
     dataini_sha256: ed511070be3a587988d16993aab9197b8ff960b943ce66cfd7d66bfe865f2340
   hd:
-    ragexe_sha256: cc49a43a42a169df7761d7079a5b41302cb4a3dd1b54f368f7ce421f6b17bf3a
-    dataini_sha256: 8658ac4590e4b36b9f71894ce7895c9ffd01322cb2a286ea3c19c4127b0bc7f5
+    ragexe_sha256: 2de845f9aedc9a37a3a27748a39c5e6515b0305209c4eade4f90794719464fe2
+    dataini_sha256: bc282b0fd90fc22920064c0ac6c0fe81859184062fc474d84e98da93de47399f
 
 optional_packs:
   - id: hd
