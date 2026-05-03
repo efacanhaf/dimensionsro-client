@@ -34,6 +34,8 @@ CmdOnOffList["/minimap"] = 1
 CmdOnOffList["/mineffect"] = 0
 CmdOnOffList["/mable"] = 1
 CmdOnOffList["/zoom"] = 0
+CmdOnOffList["/emblem"] = 1
+CmdOnOffList["/showshop"] = 1
 
 OptionInfoList["Trilinear"] = 0
 OptionInfoList["Bgm_Volume"] = 8
@@ -42,7 +44,7 @@ OptionInfoList["AutoOpen1to1Window"] = 1
 OptionInfoList["AutoOpen1to1Window_Friend"] = 1
 OptionInfoList["PlaySound_Open1to1Window"] = 1
 OptionInfoList["Outdoor_ViewLatitude"] = -45.000000
-OptionInfoList["Outdoor_ViewDistance"] = 400.000000
+OptionInfoList["Outdoor_ViewDistance"] = 351.400024
 OptionInfoList["Indoor_ViewLatitude"] = -45.000000
 OptionInfoList["Indoor_ViewDistance"] = 300.000000
 OptionInfoList["SkinName"] = "dimensionsro_dark"
