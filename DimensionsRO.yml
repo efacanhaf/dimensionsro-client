@@ -15,7 +15,7 @@ setup:
   exit_on_success: false
 
 web:
-  index_url: https://efacanhaf.github.io/dimensionsro-patches/index.html?v=15
+  index_url: https://efacanhaf.github.io/dimensionsro-patches/index.html?v=16
   preferred_patch_server: GitHub
   patch_servers:
     - name: GitHub
