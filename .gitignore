@@ -13,6 +13,9 @@ launcher.html
 # Logs (debug runs, R2 sync, etc)
 *.log
 
+# Local dev server GRF (contains local-only assets, distribute separately)
+server-local.grf
+
 # Backup/scratch
 _loose_backup/
 *.epi
@@ -27,6 +30,7 @@ Ragexe.exe.unpatched
 Ragexe.exe.pre-warp-bak
 Setup.exe.kr-bak
 Launcher.dat
+DimensionsRO.dat
 en.grf.bak
 data.grf.original-*
 
