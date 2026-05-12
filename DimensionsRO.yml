@@ -10,12 +10,12 @@ play:
   exit_on_success: true
 
 setup:
-  path: Setup.exe
+  path: dro_update.exe
   arguments: []
-  exit_on_success: false
+  exit_on_success: true
 
 web:
-  index_url: https://efacanhaf.github.io/dimensionsro-patches/index.html?v=23
+  index_url: https://efacanhaf.github.io/dimensionsro-patches/index.html?v=27&launcher_update=1
   preferred_patch_server: GitHub
   patch_servers:
     - name: GitHub
