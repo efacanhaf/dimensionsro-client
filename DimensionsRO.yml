@@ -6,7 +6,7 @@ window:
 
 play:
   path: Ragexe.exe
-  arguments: []
+  arguments: ["1rag1", "1"]
   exit_on_success: true
 
 setup:
@@ -15,7 +15,7 @@ setup:
   exit_on_success: false
 
 web:
-  index_url: https://efacanhaf.github.io/dimensionsro-patches/index.html?v=18
+  index_url: https://efacanhaf.github.io/dimensionsro-patches/index.html?v=21
   preferred_patch_server: GitHub
   patch_servers:
     - name: GitHub
@@ -32,10 +32,10 @@ patching:
 
 mode_artifacts:
   vanilla:
-    ragexe_sha256: bc95b310c9a37519727491097d72903ea8627fe57746cfd566613d63e67e6bea
+    ragexe_sha256: 8aa2c78848b24ff5ebbe19822c1c914c4bb27e85b7370739eedefa242c958a6f
     dataini_sha256: ed511070be3a587988d16993aab9197b8ff960b943ce66cfd7d66bfe865f2340
   hd:
-    ragexe_sha256: 4415953704279aeb7dfc229e3b77c2a1ffb3037623bdf1aee822f41017a3ed41
+    ragexe_sha256: 61ba0d4cca0a9679c74933ad4aa200c2903a80fd783bedbf92c354bd7814c6c0
     dataini_sha256: 8658ac4590e4b36b9f71894ce7895c9ffd01322cb2a286ea3c19c4127b0bc7f5
 
 optional_packs:
