@@ -15,7 +15,7 @@ setup:
   exit_on_success: false
 
 web:
-  index_url: https://efacanhaf.github.io/dimensionsro-patches/index.html?v=21
+  index_url: https://efacanhaf.github.io/dimensionsro-patches/index.html?v=23
   preferred_patch_server: GitHub
   patch_servers:
     - name: GitHub
@@ -29,6 +29,12 @@ patching:
   in_place: true
   check_integrity: true
   create_grf: true
+
+required_files:
+  - name: data.grf
+    url: https://objectstorage.sa-saopaulo-1.oraclecloud.com/n/grpfrdps70jz/b/dimensionsro-downloads/o/data/data.grf
+    size: 5144222343
+    sha256: a93c24fe4cbaaf720bffe652444fda8982638ab5d25dc87c8a4325955075b25c
 
 mode_artifacts:
   vanilla:
